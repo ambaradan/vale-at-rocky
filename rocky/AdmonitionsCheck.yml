@@ -1,0 +1,7 @@
+extend: existence
+ignorecase: false
+level: warning
+message: "Punto esclamativo mancante"
+scope: raw
+  raw:
+    - '!!!'
