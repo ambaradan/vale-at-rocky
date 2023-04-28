@@ -8,7 +8,7 @@ The `rocky` folder should be copied to the folder defined in *.vale.ini*:
 StylesPath = ~/.local/share/nvim/vale-styles
 ```
 
-and should be added to `BaseOnStyle`:
+and should be added to `BaseOnStyles`:
 
 ```yaml
 BasedOnStyles = Vale, RedHat, alex, rocky
