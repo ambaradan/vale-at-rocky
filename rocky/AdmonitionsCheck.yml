@@ -1,7 +1,7 @@
-extend: existence
+extends: existence
 ignorecase: false
-level: warning
-message: "Punto esclamativo mancante"
+level: error
+message: "Tag does not match (!!!)"
 scope: raw
-  raw:
-    - '!!!'
+raw:
+    - '[!!!]'
