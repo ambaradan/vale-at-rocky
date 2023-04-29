@@ -1,0 +1,7 @@
+extends: existence
+ignorecase: false
+level: error
+message: "Incorrect code block (```)"
+scope: raw
+raw:
+    - '[```]'
