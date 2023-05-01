@@ -1,7 +1,0 @@
-extends: existence
-ignorecase: false
-level: error
-message: "Tag does not match (!!!)"
-scope: raw
-raw:
-    - '[!!!]'
