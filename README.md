@@ -12,8 +12,8 @@ This term is perfectly fine but not known to `vale` so these messages can clutte
 
 ### Requirements
 
-- NvChad 2.0 properly installed with the [Chadrc Template](https://docs.rockylinux.org/books/nvchad/template_chadrc/) provided by the developers.
-- `vale` properly installed with [Mason in NvChad 2.0](https://https://docs.rockylinux.org/books/nvchad/vale_nvchad/)
+- NvChad 2.5 properly installed.
+- `vale` properly installed with [Mason in NvChad 2.5](https://https://docs.rockylinux.org/books/nvchad/vale_nvchad/)
 - Git
 
 ## Installation
