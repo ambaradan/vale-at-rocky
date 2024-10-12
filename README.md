@@ -1,38 +1,34 @@
-# Rocky Docs - Vale Styles
+# Rocky vocabularies
 
 Project for creating custom dictionaries for vocabulary words after installing the `vale` linter in NvChad.
 
 ## Purpose of the project
 
-When checking your document with `vale` you might receive warnings such as this:
+The purpose of the project is to create a set of vocabularies for use when writing Rocky Linux documentation. The vocabularies are needed to remove warnings issued by *Vale* for unknown words as in the following example:
 
 > Use correct American English spelling. Did you really mean 'Rocky'?
 
-This term is perfectly fine but not known to `vale` so these messages can clutter up the display, making it difficult to actually see the warnings that you need. Using this repository and customizing it with your own vocabulary words will help you use `vale` within NvChad without all of the clutter.
+This term is perfectly fine but not known to `vale` so these messages can clutter up the display, making it difficult to actually see the warnings that you need.
 
-### Requirements
+To remove these kinds of warnings, it is necessary to provide *Vale* with a list of words that should be considered correct, and for this purpose Vale's developers introduced *vocabularies*.  
+Vocabularies are folders containing two files, the *accept.txt* and *reject.txt* files, which contain the words to be considered correct and those to be considered incorrect, respectively. The words are entered one per line and may have wildcards that affect the choice result.
 
-- NvChad 2.5 properly installed.
-- `vale` properly installed with [Mason in NvChad 2.5](https://https://docs.rockylinux.org/books/nvchad/vale_nvchad/)
-- Git
+## Structure of a Vale configuration
 
-## Installation
-
-Your installation is in the Neovim shared folder `~/.local/share/nvim/`, this is to keep it hidden from the user's folders and to conform it to NvChad.
-
-First, clone the repository in the Neovim shared folder:
-
-```bash
-cd ~/.local/share/nvim/
-git clone https://github.com/ambaradan/vale-styles.git
-```
-
-The repository contains a correctly configured `.vale.ini` file  that will replace the one that you installed before. The initialization that follows provides integration of custom dictionaries for Rocky documentation. These dictionaries can be fully customized to include your own words.
+In a standard Vale structure the *styles* folder has the selected styles (in this case `RedHat` and `alex`):
 
 ```text
-StylesPath = ~/.local/share/nvim/vale-styles
+styles
+├── alex
+└── RedHat
+```
 
-Vocab = rockydocs, terminology
+The configuration file set the search path for the styles, the level the alerts should have (warning, suggestion, and so on) and the styles used:
+
+```ini
+StylesPath = ~/.local/share/vale/styles
+
+Vocab = rockydocs, nvchad, terminology
 
 MinAlertLevel = suggestion
 
@@ -42,33 +38,21 @@ Packages = RedHat, alex
 BasedOnStyles = Vale, RedHat, alex
 ```
 
-copy the file to your home directory:
+## Structure of a dictionary
 
-```bash
-cp ~/.local/share/nvim/vale-styles/.vale.ini ~/.
+The dictionary consists of two files, an *accept.txt* file that has the words that Vale should consider as correct, in this case *nvchad/accept.txt*:
+
+```txt
+Devicons
+formatters
+(?i)chadrc
+(?i)nvchad
+(?i)nvim
+[?i]yaml
+....
 ```
 
-and initialize the styles and dictionaries:
-
-```bash
-cd ~/
-~/.local/share/nvim/mason/packages/vale/vale sync
- SUCCESS  Downloaded package 'RedHat'                                                                 
- SUCCESS  Downloaded package 'alex'                                                                    
-Downloading packages [2/2] █████████████████████████████████████████████ 100% | 2s
-```
-
-The dictionaries will download to `~/.local/share/nvim/vale-styles/` and a **.gitignore** has is already there to prevent them from sharing with Git.
-
-```text
-cat ~/.local/share/nvim/vale-styles/.gitignore
-alex
-RedHat
-```
-
-### Dictionaries
-
-Dictionaries are basically a folder containing two files, an **accept.txt** and a **reject.txt**. In *accept.txt* you enter the custom terms one per line. The terms are case-sensitive by default.
+The second *reject.txt* file unless there are special needs is usually empty. It is for flagging words not to be used, which in the Rocky documentation is already handled by *RedHat* styles for the technical part and by *alex* for identifying polarizing words in Markdown files.   
 
 Vale allows some dedicated settings for terms:
 
@@ -81,4 +65,4 @@ The entry, (?i)linux, marks the entire pattern as case-insensitive, and the entr
 
 ## Conclusion
 
-Using `vale` in NvChad 2.0 with properly populated dictionaries will help when checking your document with `vale`. It will eliminate the screen clutter that comes from words that `vale` does not know to be correct by default.
+Using `vale` in NvChad with properly populated dictionaries will help when checking your document with `vale`. It will end the screen clutter that comes from words that `vale` does not know to be correct by default.
