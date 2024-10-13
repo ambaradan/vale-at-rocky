@@ -1,0 +1,10 @@
+StylesPath = ~/.local/share/nvim/vale-styles
+
+Vocab = rockydocs, terminology
+
+MinAlertLevel = suggestion
+
+Packages = RedHat, alex
+
+[*]
+BasedOnStyles = Vale, RedHat, alex
