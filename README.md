@@ -29,8 +29,6 @@ The configuration file set the search path for the styles, the level the alerts 
 ```ini
 StylesPath = ~/.local/share/vale/styles
 
-Vocab = rockydocs, nvchad, terminology
-
 MinAlertLevel = suggestion
 
 Packages = RedHat, alex
