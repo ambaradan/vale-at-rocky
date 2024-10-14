@@ -117,6 +117,8 @@ Now words such as *Rocky*, *Ansible*, *Incus* will no longer produce warnings fr
 
 ## WIP Contributing vocabularies
 
+Vocabularies are continuously updated documents, and contribution is an important part of their construction.
+
 Vale allows some dedicated settings for terms:
 
 ```text
