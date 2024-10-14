@@ -47,7 +47,7 @@ formatters
 (?i)chadrc
 (?i)nvchad
 (?i)nvim
-[?i]yaml
+[Yy]aml
 ....
 ```
 
@@ -126,7 +126,7 @@ Vale allows some dedicated settings for terms:
 [Rr]ocky
 ```
 
-The entry, (?i)linux, marks the entire pattern as case-insensitive, and the entry [Rr]ocky, provides two acceptable options.
+The entry, (?i)linux, marks the entire pattern as case-insensitive, and the entry [Rr]ocky, provides two acceptable options, capitalized or not.
 
 ## Conclusion
 
