@@ -12,7 +12,7 @@ The purpose of the project is to create a set of vocabularies for use when writi
 This term is perfectly fine but not known to `vale` so these messages can clutter up the display, making it difficult to actually see the warnings that you need.
 
 To remove these kinds of warnings, it is necessary to provide *Vale* with a list of words that should be considered correct, and for this purpose Vale's developers introduced *vocabularies*.  
-Vocabularies are folders containing two files, the *accept.txt* and *reject.txt* files, which contain the words to be considered correct and those to be considered incorrect, respectively. The words are entered one per line and may have wildcards that affect the choice result.
+Vocabularies are folders containing two files, the *accept.txt* and *reject.txt* files, which contain the words to be considered correct and those to be considered incorrect, respectively. The words are entered one per line and may have wild cards that affect the choice result.
 
 ## Structure of a Vale configuration
 
