@@ -1,3 +1,4 @@
+AWX
 [Aa]nsible
 [Aa]nsistrano
 anacron
@@ -16,9 +17,9 @@ firewalld
 glusterfs
 httpd
 (?i)lxd
-Hashicorp
 iptables
 [Ii]ncus
+json
 Katello
 material-mkdocs
 Mattermost
@@ -32,12 +33,11 @@ openssl
 [Nn]ginx
 Podman
 (?i)Remi
+[rR]undeck
 sendmail
 sftp
 (Ss)mtp
 snapd
-Sangoma
-Solaris
 sudo
 systemctl
 (?i)Systemd

@@ -12,6 +12,7 @@ cli
 (?i)html
 [Ii]node
 IPs
+[Kk]ickstart
 [Kk]ilobyte
 lockfile
 lsyncd
@@ -19,7 +20,9 @@ macvlan
 mailx
 (?i)multiplatform
 pluggable
+postinstall
 postmap
+provisioners
 recurse
 repos
 (?i)RPM
