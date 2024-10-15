@@ -12,6 +12,7 @@ cli
 (?i)html
 [Ii]node
 IPs
+[Kk]ickstart
 [Kk]ilobyte
 lockfile
 lsyncd
@@ -20,6 +21,8 @@ mailx
 (?i)multiplatform
 pluggable
 postmap
+postinstall
+provisioners
 recurse
 repos
 (?i)RPM

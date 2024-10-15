@@ -1,3 +1,4 @@
+AWX
 [Aa]nsible
 [Aa]nsistrano
 anacron
@@ -16,7 +17,6 @@ firewalld
 glusterfs
 httpd
 (?i)lxd
-Hashicorp
 iptables
 [Ii]ncus
 Katello
@@ -32,6 +32,7 @@ openssl
 [Nn]ginx
 Podman
 (?i)Remi
+[rR]undeck
 sendmail
 sftp
 (Ss)mtp
@@ -45,6 +46,4 @@ systemctl
 [Vv]i
 vim
 (?i)vsftpd
-VMware
-vSphere
 Wordpress

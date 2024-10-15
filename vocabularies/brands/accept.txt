@@ -1,0 +1,8 @@
+Bento
+DigitalOcean
+Hashi[Cc]orp
+OpenStack
+Synology
+vCenter
+VirtualBox
+VMware
