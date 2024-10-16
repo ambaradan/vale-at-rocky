@@ -10,6 +10,7 @@ cmake
 cronie
 crontab
 [Dd]ocker
+DokuWiki
 cron
 [Cc]rowdin
 (?i)EPEL
