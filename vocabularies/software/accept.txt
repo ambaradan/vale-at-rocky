@@ -47,4 +47,4 @@ vim
 (?i)vsftpd
 VMware
 vSphere
-Wordpress
+Word[pP]ress
