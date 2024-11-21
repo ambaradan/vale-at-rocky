@@ -129,18 +129,18 @@ The entry, (?i)linux, marks the entire pattern as case-insensitive, and the entr
 
 ## Initializing and updates using `vale sync`
 
-**NOTE:** These next commands assume the creation of the `.vale.ini` file in the root of your home folder, and that your styles path is `~/.local/share/vale/styles`. The styles path *could* be in other locations. Ensure that your styles path matches your actual path.
+**NOTE:** These next commands assume the creation of the `.vale.ini` file in the root of your home folder. The styles path should be adjusted to match your styles path. To do this, replace the `<nvim_name_config>` with what matches your setup.
 
-The `vale sync` command creates the styles folder initially, and keeps all styles up-to-date on your system when used periodically. In *NvChad*, the `vale` binary exists in:
+The `vale sync` command creates the styles folder initially, and keeps all styles updated on your system when used periodically. In *NvChad*, the `vale` binary exists in:
 
 ```bash
-~/.local/share/nvim/mason/bin/vale
+~/.local/share/<nvim_name_config>/mason/bin/vale
 ```
 
-To run `vale sync`, since that folder is not in your PATH, you need to run it from that folder. The easier way is to add the vale binary to your PATH so that you can run `vale sync` from anywhere.  To do this, change your `.bashrc` file by appending this line to the end of it:
+To run `vale sync`, since that folder is not in your PATH, you need to run it from that folder. The easier way is to add the vale binary to your PATH so that you can run `vale sync` from anywhere. To do this, change your `.bashrc` file by appending this line to the end of it:
 
 ```bash
-PATH="~/.local/share/nvim/mason/bin/vale:$PATH"
+PATH="~/.local/share/<nvim_name_config>/bin/vale:$PATH"
 ```
 
 Save your `.bashrc` and then run the `bash` command to read the file in, and update your PATH.
