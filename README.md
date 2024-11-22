@@ -88,7 +88,8 @@ After finishing the copy, the *config* folder will have the following structure:
 The next step is to edit the *.vale.ini* configuration file in the home folder. This facilitates adding the entries in *accept.txt* to each exception list in all styles listed in *BasedOnStyles*, and also adding all words found in the *accept.txt* vocabulary files to the substitution rule (Vale.Terms) for matching checks.  
 Instead, entries in *reject.txt* are automatically added to an existence rule (Vale.Avoid) that flags all occurrences as errors.
 
-**NOTE:** Inclusion of vocabularies in all styles listed in *BasedOnStyles* offers the advantage of making vocabularies independent. This means that you only need to update the project vocabulary to customize third-party styles instead of updating the styles themselves.
+> [!NOTE]
+> Inclusion of vocabularies in all styles listed in *BasedOnStyles* offers the advantage of making vocabularies independent. This means that you only need to update the project vocabulary to customize third-party styles instead of updating the styles themselves.
 
 To add vocabularies to the configuration file, just add a line that includes the vocabularies you want to use:
 
@@ -129,7 +130,8 @@ The entry, (?i)linux, marks the entire pattern as case-insensitive, and the entr
 
 ## Initializing and updates using `vale sync`
 
-**NOTE:** These next commands assume the creation of the `.vale.ini` file in the root of your home folder. The styles path should be adjusted to match your styles path. To do this, replace the `<nvim_name_config>` with what matches your setup.
+> [NOTE]
+> These next commands assume the creation of the `.vale.ini` file in the root of your home folder. The styles path should be adjusted to match your styles path. To do this, replace the `<nvim_name_config>` with what matches your setup.
 
 The `vale sync` command creates the styles folder initially, and keeps all styles updated on your system when used periodically. In *NvChad*, the `vale` binary exists in:
 
