@@ -130,7 +130,7 @@ The entry, (?i)linux, marks the entire pattern as case-insensitive, and the entr
 
 ## Initializing and updates using `vale sync`
 
-> [NOTE]
+> [!NOTE]
 > These next commands assume the creation of the `.vale.ini` file in the root of your home folder. The styles path should be adjusted to match your styles path. To do this, replace the `<nvim_name_config>` with what matches your setup.
 
 The `vale sync` command creates the styles folder initially, and keeps all styles updated on your system when used periodically. In *NvChad*, the `vale` binary exists in:
