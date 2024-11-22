@@ -1,6 +1,6 @@
 # Rocky vocabularies
 
-Project for creating custom dictionaries for vocabulary words after installing the `vale` linter in NvChad.
+Project for creating custom dictionaries for vocabulary words after installing the `vale` linter in Neovim.
 
 ## Purpose of the project
 
@@ -38,7 +38,7 @@ BasedOnStyles = Vale, RedHat, alex
 
 ## Structure of a dictionary
 
-The dictionary consists of two files in a single folder, an *accept.txt* file that has the words that Vale should consider as correct, in this case the *nvchad* folder's *accept.txt* contents are:
+The dictionary consists of two files in a single folder, an *accept.txt* file that has the words that Vale should consider as correct, in this case the *neovim* folder's *accept.txt* contents are:
 
 ```txt
 Devicons
@@ -74,7 +74,7 @@ After finishing the copy, the *config* folder will have the following structure:
     ├── brands
     │   ├── accept.txt
     │   └── reject.txt
-    ├── nvchad
+    ├── neovim
     │   ├── accept.txt
     │   └── reject.txt
     ├── rockydocs
@@ -94,16 +94,16 @@ Instead, entries in *reject.txt* are automatically added to an existence rule (V
 To add vocabularies to the configuration file, just add a line that includes the vocabularies you want to use:
 
 ```txt
-Vocab = rockydocs, nvchad, terminology
+Vocab = rockydocs, neovim, terminology
 ```
 
-Insert vocabularies available in the project as needed, by adding or removing them from *Vocab*. So, if you do not write documentation on NvChad it is unlikely that the corresponding vocabulary will be useful.  
+Insert vocabularies available in the project as needed, by adding or removing them from *Vocab*. So, if you do not write documentation on Neovim it is unlikely that the corresponding vocabulary will be useful.  
 When finished, the *.vale.ini* file will look as follows:
 
 ```ini
 StylesPath = ~/.local/share/vale/styles
 
-Vocab = rockydocs, nvchad, terminology
+Vocab = rockydocs, neovim, terminology
 
 MinAlertLevel = suggestion
 
@@ -131,9 +131,19 @@ The entry, (?i)linux, marks the entire pattern as case-insensitive, and the entr
 ## Initializing and updates using `vale sync`
 
 > [!NOTE]
-> These next commands assume the creation of the `.vale.ini` file in the root of your home folder. The styles path should be adjusted to match your styles path. To do this, replace the `<nvim_name_config>` with what matches your setup.
+> These next commands assume the creation of the `.vale.ini` file in the root of your home folder. The styles path should be adjusted to match your styles path. To do this, replace the `<nvim_name_config>` with what matches your setup. To find this PATH, try the following command:
 
-The `vale sync` command creates the styles folder initially, and keeps all styles updated on your system when used periodically. In *NvChad*, the `vale` binary exists in:
+```bash
+find ~/ -name vale | grep bin
+```
+
+The results will show something similar to this:
+
+```text
+~/.local/share/nvim/mason/bin/vale
+```
+
+The `vale sync` command creates the styles folder initially, and keeps all styles updated on your system when used periodically.
 
 ```bash
 ~/.local/share/<nvim_name_config>/mason/bin/vale
@@ -157,4 +167,4 @@ If the PATH shows the line you just added, run `vale sync` to either initialize 
 
 ## Conclusion
 
-Using `vale` in NvChad with properly populated dictionaries will help when checking your document with `vale`. It will end the screen clutter that comes from words that `vale` does not know to be correct by default.
+Using `vale` in *Neovim* with properly populated dictionaries will help when checking your document with `vale`. It will end the screen clutter that comes from words that `vale` does not know to be correct by default.
