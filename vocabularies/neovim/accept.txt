@@ -6,6 +6,8 @@ formatters
 (?i)nvim
 [?i]yaml
 Lazy
+lazy.nvim
+[Rr]ocksmarker
 [Ll]ua
 LSP
 Mason
