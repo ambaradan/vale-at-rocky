@@ -1,4 +1,5 @@
 alex
+autocommand
 Devicons
 formatters
 (?i)chadrc
@@ -7,6 +8,8 @@ formatters
 [?i]yaml
 Lazy
 lazy.nvim
+LazyVim
+LunarVim
 [Rr]ocksmarker
 [Ll]ua
 LSP
