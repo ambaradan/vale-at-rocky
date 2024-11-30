@@ -6,6 +6,7 @@ anacron
 [Bb]ash
 [Cc]addy
 cerbot
+Chyrp
 cmake
 cronie
 crontab
