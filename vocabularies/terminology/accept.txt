@@ -10,6 +10,7 @@ cli
 (?i)hostnamectl
 (?i)Hostnames
 (?i)html
+[Ff]ilesystem
 [Ii]node
 IPs
 [Kk]ickstart
@@ -38,6 +39,7 @@ stand-alone
 [Ss]tderr
 subtask
 [Uu]id
+[Uu]narchived
 virtualized
 virtualize
 VM
