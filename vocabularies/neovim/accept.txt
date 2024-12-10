@@ -1,11 +1,18 @@
 alex
 autocommand
+netrw
 Devicons
 formatters
 (?i)chadrc
 (?i)nvchad
 (?i)nvim
 [?i]yaml
+[Rr]ocksmarker
+[Nn]eogit
+[Nn]eo-tree
+[Rr]ocks.nvim
+[Ll]ua
+[Ll]uarocks
 Lazy
 lazy.nvim
 LazyVim
@@ -13,7 +20,7 @@ LunarVim
 [Rr]ocksmarker
 [Ll]ua
 LSP
-Mason
+[Mm]ason
 [Mm]arkdownlint
 [Nn]eovim
 Octicons
