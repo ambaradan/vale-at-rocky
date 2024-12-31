@@ -16,6 +16,8 @@ cron
 [Cc]rowdin
 (?i)EPEL
 firewalld
+[Ff]latpak
+[Ff]lathub
 glusterfs
 httpd
 (?i)lxd
