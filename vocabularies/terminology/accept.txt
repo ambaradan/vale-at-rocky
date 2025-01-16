@@ -5,6 +5,7 @@ chroot
 cli
 [Cc]onfigs
 [Cc]trl
+[Dd]ocumentarian
 [Gg]id
 (?i)Hostname
 (?i)hostnamectl
@@ -16,11 +17,13 @@ IPs
 [Kk]ickstart
 [Kk]ilobyte
 LAMP
+[Ll]exicalization
 libvirt
 lockfile
 lsyncd
 macvlan
 mailx
+Mattermost
 (?i)multiplatform
 pluggable
 postinstall
