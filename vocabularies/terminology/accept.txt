@@ -19,10 +19,12 @@ IPs
 LAMP
 [Ll]exicalization
 libvirt
+linter
 lockfile
 lsyncd
 macvlan
 mailx
+[Mm]arkdownlint
 Mattermost
 (?i)multiplatform
 pluggable
