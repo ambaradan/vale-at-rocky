@@ -27,6 +27,8 @@ mailx
 [Mm]arkdownlint
 Mattermost
 (?i)multiplatform
+nameserver
+nameservers
 pluggable
 postinstall
 postmap
