@@ -32,3 +32,10 @@ Telescope
 Treesitter
 [Tt]abufline
 [Vv]split
+checktime
+augroup
+autocmd
+FocusGained
+TermClose
+TermLeave
+cmd
