@@ -29,7 +29,7 @@ patcher
 [Rr]ipgrep
 [Ss]tatusline
 Telescope
-Treesitter
+[Tt]reesitter
 [Tt]abufline
 [Vv]split
 checktime
@@ -39,3 +39,4 @@ FocusGained
 TermClose
 TermLeave
 cmd
+lua
