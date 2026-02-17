@@ -40,3 +40,8 @@ TermClose
 TermLeave
 cmd
 lua
+luac
+mapleader
+maplocalleader
+spacebar
+keybinding
