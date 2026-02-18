@@ -52,3 +52,5 @@ subtask
 virtualized
 virtualize
 VM
+RGB
+color
