@@ -45,3 +45,4 @@ mapleader
 maplocalleader
 spacebar
 keybinding
+[Yy]ank
