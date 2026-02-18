@@ -7,6 +7,7 @@ cli
 [Cc]trl
 [Dd]ocumentarian
 [Gg]id
+[Gg]cc
 (?i)Hostname
 (?i)hostnamectl
 (?i)Hostnames
