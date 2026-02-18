@@ -5,6 +5,7 @@ chroot
 cli
 [Cc]onfigs
 [Cc]trl
+[Cc]allout
 [Dd]ocumentarian
 [Gg]id
 [Gg]cc
