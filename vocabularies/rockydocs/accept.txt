@@ -2,3 +2,4 @@ AppStream
 [Ll]inux
 [Rr]ockydocs
 ambaradan
+CRB
