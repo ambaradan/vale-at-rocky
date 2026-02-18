@@ -1,5 +1,7 @@
 alex
 autocommand
+colorscheme
+colorschemes
 netrw
 Devicons
 formatters
