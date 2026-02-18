@@ -40,6 +40,8 @@ autocmd
 FocusGained
 TermClose
 TermLeave
+[Tt]abline
+[Ll]inter
 cmd
 lua
 luac
