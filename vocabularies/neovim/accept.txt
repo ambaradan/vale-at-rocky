@@ -50,3 +50,4 @@ maplocalleader
 spacebar
 keybinding
 [Yy]ank
+[Qq]uickfix
