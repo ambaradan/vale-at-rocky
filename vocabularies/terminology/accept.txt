@@ -37,6 +37,7 @@ postmap
 provisioners
 recurse
 repos
+ruleset
 (?i)RPM
 (?i)rsnapshot
 SELinux
