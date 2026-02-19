@@ -26,6 +26,7 @@ LunarVim
 [Ll]ua
 LSP
 IDE
+TOML
 [Mm]ason
 [Mm]arkdownlint
 [Nn]eovim
