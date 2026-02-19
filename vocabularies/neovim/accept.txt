@@ -18,6 +18,7 @@ formatters
 [Ll]ua
 [Ll]uarocks
 [Ll]ualine
+[Ll]uasnip
 [Gg]itsign
 [Ll]azy
 lazy.nvim
@@ -27,7 +28,7 @@ LunarVim
 [Ll]ua
 (?i)lsp
 IDE
-TOML
+(?i)toml
 [Mm]ason
 [Mm]arkdownlint
 [Nn]eovim
