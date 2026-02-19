@@ -1,6 +1,7 @@
 alex
 autocommand
 [Bb]ufferline
+[?i]blink
 colorscheme
 colorschemes
 netrw
@@ -24,8 +25,7 @@ LazyVim
 LunarVim
 [Rr]ocksmarker
 [Ll]ua
-LSP
-lsp
+(?i)lsp
 IDE
 TOML
 [Mm]ason
