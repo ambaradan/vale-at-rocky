@@ -18,13 +18,14 @@ formatters
 [Ll]uarocks
 [Ll]ualine
 [Gg]itsign
-Lazy
+[Ll]azy
 lazy.nvim
 LazyVim
 LunarVim
 [Rr]ocksmarker
 [Ll]ua
 LSP
+IDE
 [Mm]ason
 [Mm]arkdownlint
 [Nn]eovim
