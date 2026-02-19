@@ -25,7 +25,7 @@ LunarVim
 [Rr]ocksmarker
 [Ll]ua
 LSP
-[Ll]sp
+lsp
 IDE
 TOML
 [Mm]ason
