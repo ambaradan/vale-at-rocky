@@ -56,5 +56,6 @@ mapleader
 maplocalleader
 spacebar
 keybinding
+[Kk]eymaps
 [Yy]ank
 [Qq]uickfix
