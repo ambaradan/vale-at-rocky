@@ -38,6 +38,7 @@ patcher
 [Rr]ipgrep
 [Ss]tatusline
 Telescope
+(?i)toc
 [Tt]reesitter
 [Tt]abufline
 [Vv]split
