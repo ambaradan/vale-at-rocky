@@ -44,8 +44,6 @@ sftp
 snapd
 sudo
 systemctl
-(?i)toolchain
-(?i)toolchains
 (?i)Systemd
 (?i)Unix
 [Vv]i
