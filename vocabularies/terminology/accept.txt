@@ -48,6 +48,8 @@ stand-alone
 [Ss]tdout
 [Ss]tderr
 subtask
+(?i)toolchain
+(?i)toolchains
 [Uu]id
 [Uu]narchived
 virtualized
