@@ -40,6 +40,8 @@ repos
 ruleset
 (?i)RPM
 (?i)rsnapshot
+[Ss]andbox
+[Ss]andboxed
 SELinux
 [Ss]crollbar
 shell
