@@ -32,6 +32,7 @@ Mattermost
 (?i)multiplatform
 nameserver
 nameservers
+namespace
 pluggable
 postinstall
 postmap
