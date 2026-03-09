@@ -52,3 +52,5 @@ vim
 VMware
 vSphere
 Word[pP]ress
+Zensical
+PyMdown
