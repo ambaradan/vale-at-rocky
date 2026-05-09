@@ -19,6 +19,8 @@ formatters
 [Ll]uarocks
 [Ll]ualine
 [Ll]uasnip
+[Ll]ux
+[Ll]uanox
 [Gg]itsign
 [Ll]azy
 lazy.nvim
