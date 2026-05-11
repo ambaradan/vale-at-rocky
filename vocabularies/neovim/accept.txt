@@ -1,10 +1,13 @@
 alex
 autocommand
+autocommands
 [Bb]ufferline
 bufnr
 boolean
 [?i]blink
+blink.cmp
 bashls
+config
 colorscheme
 colorschemes
 cssls
@@ -63,7 +66,12 @@ luac
 mapleader
 maplocalleader
 harper_ls
+on_attach
+reStructuredText
 spacebar
+server_name
+[Ss]hell
+[Tt]aplo
 keybinding
 JSON
 jsonls
@@ -72,4 +80,4 @@ jsonls
 [Qq]uickfix
 vale_ls
 vimls
-Vim
+[Vv]im
