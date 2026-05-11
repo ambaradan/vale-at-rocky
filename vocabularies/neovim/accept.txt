@@ -1,6 +1,8 @@
 alex
 autocommand
 [Bb]ufferline
+bufnr
+boolean
 [?i]blink
 bashls
 colorscheme
